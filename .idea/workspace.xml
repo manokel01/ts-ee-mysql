@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tinysensor-ee-mysql:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="919187f2-8448-4d47-a244-631a671b019e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/authentication/AuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/controller/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/controller/DeleteUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/controller/GrFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/controller/InsertUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/controller/SearchUsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/controller/UpdateUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/dao/DBUserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/dao/DeviceDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/dao/IDBUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/dao/IDeviceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/dao/IUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/dao/UserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/dao/dbutil/DBHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/dao/exceptions/DAOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/dto/DBUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/dto/DeviceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/model/DBUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/model/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/service/DBUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/service/DeviceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/service/IDBUsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/service/IDeviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/service/exceptions/DBUserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/service/exceptions/DeviceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/service/exceptions/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/service/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/validation/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tinysensor/static/img/art2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tinysensor/static/img/aueb100b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tinysensor/static/img/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tinysensor/static/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tinysensor/static/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tinysensor/static/styles/usersmenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tinysensor/static/templates/userdeleted.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tinysensor/static/templates/userinserted.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tinysensor/static/templates/users.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tinysensor/static/templates/usersmenu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tinysensor/static/templates/userupdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/tinysensor/static/templates/userupdated.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MuMibTg967wPX13HFYP9V1enTP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/manokel/dev/java/cf-java/tinysensor-ee-mysql/src/main/java/com/manokel/dev/tinysensor/service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/service" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/manokel/dev/tinysensor/controller" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/tinysensor/static/img" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/tinysensor/static/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.manokel.dev.tinysensor.dto" />
+      <recent name="com.manokel.dev.tinysensor.dao" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.731" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.731" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="tinysensor-ee-mysql:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="fddc00c7-3989-4901-b094-e8a25d8534f9" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56110" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="tinysensor-ee-mysql:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="919187f2-8448-4d47-a244-631a671b019e" name="Changes" comment="" />
+      <created>1678613143787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678613143787</updated>
+      <workItem from="1678613145712" duration="38623000" />
+      <workItem from="1678735257083" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
